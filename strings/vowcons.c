@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 int main() {
     char str[100];
     int vowels = 0, consonants = 0, i;
-
     printf("Enter a string: ");
     gets(str);
-
     for (i = 0; str[i] != '\0'; i++) {
         char ch = str[i];
         if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
@@ -17,11 +14,8 @@ int main() {
             else
                 consonants++;
         }
-
     }
-
     printf("Vowels: %d\n", vowels);
     printf("Consonants: %d\n", consonants);
-
     return 0;
 }
