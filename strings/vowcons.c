@@ -17,3 +17,9 @@ int main() {
             else
                 consonants++;
         }
+
+    }
+
+    printf("Vowels: %d\n", vowels);
+    printf("Consonants: %d\n", consonants);
+
