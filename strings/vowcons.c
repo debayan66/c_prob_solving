@@ -23,3 +23,5 @@ int main() {
     printf("Vowels: %d\n", vowels);
     printf("Consonants: %d\n", consonants);
 
+    return 0;
+}
