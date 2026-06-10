@@ -3,7 +3,7 @@ int main() {
     char str[100];
     int vowels = 0, consonants = 0, i;
     printf("Enter a string: ");
-    gets(str);
+    fgets(str, sizeof(str), stdin);
     for (i = 0; str[i] != '\0'; i++) {
         char ch = str[i];
         if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
